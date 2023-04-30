@@ -3,7 +3,7 @@ services:
   - type: web
     name: Music
     env: python
-    startCommand: python3 bot.py
+    startCommand: python3 main.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/Aadhixr/Music.git # optional
     region: oregon # optional (defaults to oregon)
